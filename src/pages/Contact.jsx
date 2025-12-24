@@ -4,9 +4,9 @@ function Contact() {
     <div>
       <h1>Kontak Saya</h1>
       <div className="card">
-        <p>Email: dio@example.com</p>
-        <p>Telepon: +62 812-3456-7890</p>
-        <p>LinkedIn: linkedin.com/in/dio</p>
+        <p>Email: diolutviandre1412@gmail.com</p>
+        <p>Telepon: +62 895-3751-74700</p>
+        <p>LinkedIn: linkedin.com/in/dio-lutvi-andre</p>
       </div>
       <form style={{ marginTop: '2rem', textAlign: 'left' }}>
         <h3>Kirim Pesan</h3>

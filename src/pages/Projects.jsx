@@ -7,8 +7,8 @@ function Projects() {
       title: "Portofolio Website",
       description: "Website portofolio pribadi dengan React dan React Router",
       technologies: ["React", "JavaScript", "CSS", "Vite"],
-      githubLink: "https://github.com/username/portofolio-dio",
-      demoLink: "https://portofolio-dio.vercel.app"
+      githubLink: "https://github.com/username/portofolio-dio_lutvi",
+      demoLink: "https://portofolio-dio_lutvi.vercel.app"
     },
     {
       title: "Task Management App",
