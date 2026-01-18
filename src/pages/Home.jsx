@@ -7,7 +7,7 @@ function Home() {
           <div className="hero-text">
             <h1 className="hero-title">
               <span className="greeting">Halo, saya</span>
-              <span className="name-highlight">Dio Lutvi Andre</span>
+              <span className="name-highlight">Dio Lutvi</span>
             </h1>
             <h2 className="hero-subtitle">
               <span className="typing-text">Web Developer</span>
