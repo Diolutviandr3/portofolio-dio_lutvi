@@ -19,7 +19,7 @@ function Navbar() {
       </Link>
       <Link
         to="/contact"
-        className="contact-button"
+        className={location.pathname === "/contact" ? "active" : ""}
       >
         Kontak Saya
       </Link>

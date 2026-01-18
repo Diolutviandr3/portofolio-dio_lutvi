@@ -7,22 +7,22 @@ function Projects() {
       title: "Portofolio Website",
       description: "Website portofolio pribadi dengan React dan React Router",
       technologies: ["React", "JavaScript", "CSS", "Vite"],
-      githubLink: "https://github.com/username/portofolio-dio_lutvi",
-      demoLink: "https://portofolio-dio_lutvi.vercel.app"
+      githubLink: "https://github.com/Diolutviandr3/portofolio-dio_lutvi",
+      demoLink: "https://diolutviandr3.github.io/portofolio-dio_lutvi/"
     },
     {
-      title: "Task Management App",
-      description: "Aplikasi manajemen tugas dengan fitur drag & drop",
-      technologies: ["React", "Tailwind CSS", "LocalStorage"],
-      githubLink: "https://github.com/username/task-app",
-      demoLink: "https://task-app-demo.vercel.app"
+      title: "Waste Management Web",
+      description: "Aplikasi manajemen sampah dengan fitur drag & drop",
+      technologies: ["HTML", "CSS"],
+      githubLink: "https://github.com/Diolutviandr3/E-Recycle",
+      demoLink: "https://diolutviandr3.github.io/E-Recycle/"
     },
     {
-      title: "E-commerce Website",
-      description: "Website toko online dengan sistem keranjang belanja",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      githubLink: "https://github.com/username/ecommerce",
-      demoLink: "https://ecommerce-demo.vercel.app"
+      title: "Real-Time Monitor Selaras Truck",
+      description: "Website monitoring truk secara real-time menggunakan HTML, dan CSS",
+      technologies: ["HTML", "CSS"],
+      githubLink: "https://github.com/Diolutviandr3/Selaras-Truck_Universitas-Ahmad-Dahlan",
+      demoLink: "https://diolutviandr3.github.io/Selaras-Truck_Universitas-Ahmad-Dahlan/"
     }
   ];
 
