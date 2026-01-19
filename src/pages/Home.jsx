@@ -38,7 +38,7 @@ function Home() {
             <div className="profile-avatar">
               <div className="avatar-inner">
                 <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
-                  <circle cx="60" cy="60" r="60" fill="#4f46e5"/>
+                  <circle cx="60" cy="60" r="60" fill="#0d00ff"/>
                   <path d="M60 30C70 30 78 38 78 48C78 58 70 66 60 66C50 66 42 58 42 48C42 38 50 30 60 30Z" fill="white"/>
                   <path d="M40 80C30 80 22 88 22 98H98C98 88 90 80 80 80H40Z" fill="white"/>
                 </svg>

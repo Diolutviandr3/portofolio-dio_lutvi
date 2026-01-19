@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function ProjectCard({ project }) {
+function ProjectCard({ project, index }) {
   const { title, description, technologies, githubLink, demoLink, image } = project;
 
   return (
@@ -10,41 +10,42 @@ function ProjectCard({ project }) {
           <img src={image} alt={title} />
         ) : (
           <div className="image-placeholder">
-            <span>📁</span>
+            <span className="placeholder-icon">📁</span>
           </div>
         )}
+        <span className="project-number">{index + 1}</span>
       </div>
       
       <div className="project-content">
         <h3 className="project-title">{title}</h3>
         <p className="project-description">{description}</p>
         
-        <div className="project-tech">
-          {technologies.map((tech, index) => (
-            <span key={index} className="tech-tag">{tech}</span>
+        <div className="tech-tags">
+          {technologies.map((tech, techIndex) => (
+            <span key={techIndex} className="tech-tag">{tech}</span>
           ))}
         </div>
         
         <div className="project-links">
-          {githubLink && (
+          {githubLink && githubLink !== '#' && (
             <a 
               href={githubLink} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="github-link"
+              className="project-link github-link"
             >
-              <span>🔗</span> GitHub
+              <span className="link-icon">🔗</span> GitHub
             </a>
           )}
           
-          {demoLink && (
+          {demoLink && demoLink !== '#' && (
             <a 
               href={demoLink} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="demo-link"
+              className="project-link demo-link"
             >
-              <span>🌐</span> Live Demo
+              <span className="link-icon">🌐</span> Live Demo
             </a>
           )}
         </div>
@@ -62,7 +63,12 @@ ProjectCard.propTypes = {
     githubLink: PropTypes.string,
     demoLink: PropTypes.string,
     image: PropTypes.string
-  }).isRequired
+  }).isRequired,
+  index: PropTypes.number
+};
+
+ProjectCard.defaultProps = {
+  index: 0
 };
 
 export default ProjectCard;
